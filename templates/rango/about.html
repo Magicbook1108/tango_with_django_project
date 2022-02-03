@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+    <h1>Rango says... </h1>
+    <h1>here is the about page.</h1>
+    <div>
+        <strong>This tutorial has been put together by {{boldmessage}}</strong>
+    </div>
+    <div>
+        <a href="/rango/">Index</a><br />
+        <img src="{% static 'images/rango.jpg' %}"
+             alt="Picture of Rango" />
+    </div>
+    <div>
+        <img src="/media/images/cat.jpg"
+             alt="Picture of cat 1" />
+    </div>
+</body>
+</html>
